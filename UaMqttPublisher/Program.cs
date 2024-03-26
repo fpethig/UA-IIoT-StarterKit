@@ -42,7 +42,7 @@ try
             "--config",
             Path.Combine(new string[] {"config", "uapublisher-config.json"}),
             "--broker",
-            "HiveMQ",
+            "LocalHive",
             "--connection",
             "BoilerServer0",
             "--port",

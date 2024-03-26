@@ -6,6 +6,12 @@
       "TopicPrefix": "opcua"
     },
     {
+      "Name": "LocalHive",
+      "BrokerUrl": "localhost",
+      "TopicPrefix": "opcua",
+      "DoNotUseTls": true
+    },
+    {
       "Name": "IopGateway",
       "BrokerUrl": "iop-gateway.germanywestcentral.cloudapp.azure.com:1884",
       "TopicPrefix": "opcua",
